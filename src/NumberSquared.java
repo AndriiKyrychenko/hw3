@@ -27,6 +27,7 @@ public class NumberSquared {
         for (int i = 0; i < squaredNumberArray.length; i++) {
             squaredNumberArray[i] = numberArray[i] * numberArray[i];
         }
+        Arrays.sort(squaredNumberArray);
         System.out.println(Arrays.toString(squaredNumberArray));
     }
 }
